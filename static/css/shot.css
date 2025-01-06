@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 430px;
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid black;
+    margin: auto;
+    /* background-color: black; */
+    header{
+        
+    }
+    main{
+        /* position: relative; */
+        margin-bottom: 40px;
+        section#shots{
+            /* position: relative; */
+            div.shot{
+                position: relative;
+                div.sh{
+                    div.sho{
+                        /* border: 1px solid; */
+                        width: 100%;
+                        height: 651px;
+                        /* margin-top: 10px; */
+                        margin: auto;
+                        video{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+    
+                    }
+                    p.one{
+                        position: absolute;
+                        /* bottom: 10%; */
+                        top: 34%;
+                        left: 85%;
+                        display: flex;
+                        flex-direction: column;
+                        /* border: 1px solid; */
+                        margin: 10px;
+                        a{
+                            display: flex;
+                            flex-direction: column;
+                            /* bottom: 50%; */
+                            /* border: 1px solid; */
+                            text-decoration: none;
+                            margin-left: 10px;
+                            padding: 2px;
+                            width: 30px;
+                            height: 25px;
+                            color: white;
+                            svg{
+                                width: 100%;
+                                height: 100%;
+                                
+                            }
+
+                        }
+                        span{
+                            text-align: center;
+                            margin-left:9px ;
+                            color: white;
+                        }
+                    }
+                    p.two{
+                        position: absolute;
+                        /* bottom: 10%; */
+                        top: 84%;
+                        left: 85%;
+                        display: flex;
+                        flex-direction: column;
+                        /* border: 1px solid; */
+                        margin: 10px;
+                        a{
+                            display: flex;
+                            flex-direction: column;
+                            /* bottom: 50%; */
+                            /* border: 1px solid; */
+                            text-decoration: none;
+                            margin-left: 10px;
+                            padding: 2px;
+                            width: 30px;
+                            height: 25px;
+                            color: white;
+                            svg{
+                                width: 100%;
+                                height: 100%;
+                                
+                            }
+
+                        }
+                        span{
+                            text-align: center;
+                            margin-left:9px ;
+                            color: white;
+                        }
+                    }
+                    :active{
+                        color: black;
+                    }
+                }
+                
+                
+            }
+        }
+
+    }
+    footer{
+        position: fixed;
+            bottom: 0;
+            z-index: 10;
+            width: 100%;
+
+        /* background-color: blue; */
+
+        section#foot {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px;
+            width: 99.9%;
+            max-width: 428px;
+            height: 40px;
+            div.foo {
+                nav {
+                    a {
+                        color: black;
+
+                        /* border: 1px solid; */
+                        svg {
+                            height: 25px;
+                            width: auto;
+                        }
+                    }
+                }
+
+                :active {
+                    color: white;
+                }
+            }
+        }
+    }
+}
